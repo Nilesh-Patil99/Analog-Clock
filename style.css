@@ -41,7 +41,7 @@
     background-color: black;
 }
 .canvas{
-    background-image: url("/public/clock.png");
+    background-image: url("public/clock.png");
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
