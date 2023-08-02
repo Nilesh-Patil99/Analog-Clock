@@ -1,0 +1,55 @@
+.hhand{
+    height: 120px;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.mhand{
+    position: absolute;
+    height: 160px;
+    width: 10px;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.shand{
+    position: absolute;
+    height: 180px;
+    width: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start
+    
+   
+}
+.hour{
+    height: 60px;
+    width: 3px;
+    background-color: rgb(159, 26, 26);
+}
+.minute{
+    height: 80px;
+    width: 3px;
+    background-color: rgb(80, 168, 48);
+}
+.second{
+    height: 90px;
+    width: 3px;
+    background-color: black;
+}
+.canvas{
+    background-image: url("/public/clock.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: black;
+}
